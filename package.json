@@ -24,8 +24,6 @@
     "@babylonjs/loaders": "^6.29.1",
     "@babylonjs/materials": "^6.29.1",
     "@babylonjs/post-processes": "^6.29.1",
-    "babylonjs": "^7.15.1",
-    "babylonjs-charactercontroller": "^0.4.4-alpha.7",
     "earcut": "^2.2.4"
   }
 }
