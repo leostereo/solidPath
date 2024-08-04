@@ -4,6 +4,8 @@ import '@babylonjs/loaders'
 
 import { Ground } from './ground'
 import { ThirdPersonController } from './thirdPersonController'
+import { Obstacle1 } from './obstacle1'
+import { MovileBox } from './movileBox'
 
 export default class MainScene {
   private camera: BABYLON.ArcRotateCamera
@@ -46,7 +48,9 @@ export default class MainScene {
 
   loadComponents(): void {
     // Load your files in order
-    new Ground(this.scene)
+    new Ground(this.scene);
+    new Obstacle1(this.scene);
+    new MovileBox(this.scene);
     new ThirdPersonController(this.camera,this.scene)
   }
 }

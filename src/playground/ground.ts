@@ -73,7 +73,7 @@ export class Ground {
     const res = new BABYLON.PhysicsAggregate(
       meshe,
       BABYLON.PhysicsShapeType.BOX,
-      { mass: 0, friction: 0.5 },
+      { mass: 0, friction: 0.9 },
       this.scene
     );
     // this.physicsViewer.showBody(res.body);
